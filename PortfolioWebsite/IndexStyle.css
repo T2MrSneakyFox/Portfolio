@@ -1,5 +1,13 @@
+body {
+  background: linear-gradient(
+    to bottom,
+    rgb(245, 245, 245),
+    rgb(185, 185, 185)
+  );
+}
+
 .about-box {
-  background-color: #fff;
+  background-color: hsla(0, 0%, 100%, 0.75);
   color: #333;
   padding: 20px;
   border-radius: 10px;
@@ -9,7 +17,7 @@
 }
 
 .skills-box {
-  background-color: #fff;
+  background-color: hsla(0, 0%, 100%, 0.75);
   color: #333;
   padding: 20px;
   border-radius: 10px;
@@ -43,4 +51,44 @@
   color: #fff;
   font-size: 16px;
   text-align: left;
+}
+
+.projects-tab {
+  background-color: hsla(0, 0%, 100%, 0.75);
+  color: #333;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.project {
+  margin-top: 10px;
+  background-color: hsla(0, 0%, 100%, 0.75);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.project img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project h3 {
+  margin: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.project p {
+  margin: 10px;
+  font-size: 14px;
+  line-height: 1.5;
 }
