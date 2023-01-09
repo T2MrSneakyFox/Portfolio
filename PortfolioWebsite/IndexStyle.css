@@ -1,0 +1,46 @@
+.about-box {
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+
+  font-size: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills-box {
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about,
+.skills {
+  margin: 40px 0;
+}
+
+.skills {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skills-bar {
+  position: relative;
+  height: 20px;
+  width: 80%;
+  background-color: #ddd;
+  margin-bottom: 10px;
+}
+
+.skills-bar-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  text-align: left;
+}
