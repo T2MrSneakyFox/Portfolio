@@ -1,9 +1,92 @@
 body {
   background: linear-gradient(
     to bottom,
-    rgb(245, 245, 245),
-    rgb(185, 185, 185)
+    rgb(223, 223, 223),
+    rgb(165, 165, 165)
   );
+}
+
+.header {
+  overflow: hidden;
+  padding: 4px 4px;
+  background-color: hsla(0, 0%, 100%, 0.75);
+  color: #333;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  margin: 0 auto;
+  padding: 10px 0;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.navboxes {
+  width: 110px;
+  text-align: center;
+}
+
+.navbar a {
+  color: #fff;
+  font-family: "Gotham Light", monospace;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+a:hover {
+  background-color: #404041;
+  color: white;
+  font-family: "Gotham Light", monospace;
+}
+
+.navdrop {
+  width: 110px;
+  background-color: #333;
+  color: black;
+  font-family: "Gotham Light", monospace;
+  padding: 16px;
+  font-size: 17px;
+  border: none;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  padding-top: 10px;
+  display: none;
+  position: fixed;
+  background-color: #333;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  font-family: "Gotham Light", monospace;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #404041;
+  color: white;
+  font-family: "Gotham Light", monospace;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 .about-box {
@@ -11,7 +94,6 @@ body {
   color: #333;
   padding: 20px;
   border-radius: 10px;
-
   font-size: 16px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -56,9 +138,17 @@ body {
 .projects-tab {
   background-color: hsla(0, 0%, 100%, 0.75);
   color: #333;
-  padding: 10px;
+  padding: 2px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projects-tab h2 {
+  padding: 2;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 
 .projects-grid {
