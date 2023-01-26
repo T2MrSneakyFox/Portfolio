@@ -64,7 +64,10 @@ body {
 }
 
 .ProfilePicture {
+  width: 25%;
+  height: 25%;
   border-radius: 10px;
+  float: right;
 }
 
 .skills-box {
