@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   }
 
   // Send email
-  $to = 'pepijn222real@gmail.com';
+  $to = 'yourname@gmail.com';
   $subject = 'New message from ' . $name;
   $headers = 'From: ' . $email . "\r\n" .
     'Reply-To: ' . $email . "\r\n" .
