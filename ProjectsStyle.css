@@ -63,7 +63,17 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.project-1-box {
+.project-2-box {
+  background-color: hsla(0, 0%, 100%, 0.75);
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-1-box,
+.project-2-box {
   margin: 25px 0;
 }
 
